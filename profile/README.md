@@ -20,6 +20,7 @@
 | **SuperUX v53** | Высокоскоростной интерфейс и визуализация телеметрии автономных систем | [superux-v53-demo](https://github.com/apumiaaifund/superux-v53-demo) | [![CI](https://github.com/apumiaaifund/superux-v53-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/apumiaaifund/superux-v53-demo/actions/workflows/ci.yml) |
 | **VC Leader** | Аналитическая платформа оценки технологических стартапов и венчурных портфелей | [vc-leader-demo](https://github.com/apumiaaifund/vc-leader-demo) | [![CI](https://github.com/apumiaaifund/vc-leader-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/apumiaaifund/vc-leader-demo/actions/workflows/ci.yml) |
 | **Apumia Hub** | Единый протокол достоверности, метаданных и DevSecOps-гейтов портфеля | [apumia-hub](https://github.com/apumiaaifund/apumia-hub) | [![CI](https://github.com/apumiaaifund/apumia-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/apumiaaifund/apumia-hub/actions/workflows/ci.yml) |
+| **Apumia Finance Extract** *(Open Source)* | Открытый инструмент извлечения и структурирования финансовых данных и отчётности | [apumia-finance-extract](https://github.com) | [![CI](https://github.com/actions/workflows/ci.yml/badge.svg)](https://github.com/actions/workflows/ci.yml) |
 
 ## 📬 Контакты
 **Артем Шамурадов** — Founder & Principal Architect (**Apumia AI Fund**) | `apumiaaifund@gmail.com` | [@apumiaaifund](https://github.com/apumiaaifund)
