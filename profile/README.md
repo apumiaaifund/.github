@@ -32,4 +32,4 @@ A single-binary / pure-Python compliance engine that unblocks hospital, banking,
 ### Enterprise Engagement & Contact
 * **2-Week NIST IR 8547 & HIPAA AI Readiness Sprint:** Turnkey air-gapped deployment, signed CycloneDX 1.6 CBOM, and CI/CD enforcement.
 * **Website & Live Demo:** [https://github.io](https://github.io)
-* **Security & Partnerships:** `security@aegisnist.io`
+* **Security & Partnerships:** `apumiaaifund@gmail.com`
