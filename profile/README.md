@@ -20,5 +20,18 @@
 | **Apumia Space** | Оркестрация распределённых узлов верификации | [Код](https://github.comapumiaaifund/apumia-space) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apumia-space/) | [![CI](https://github.comapumiaaifund/apumia-space/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apumia-space/actions/workflows/ci.yml) |
 | **Apumia Hub** | Единый протокол достоверности и DevSecOps-гейтов | [Код](https://github.comapumiaaifund/apumia-hub) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apumia-hub/) | [![CI](https://github.comapumiaaifund/apumia-hub/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apumia-hub/actions/workflows/ci.yml) |
 
+
+## 🎯 Конструктор решений: персональная песочница под задачу клиента за 24 часа
+
+На базе **15 готовых детерминированных модулей** мы проектируем и разворачиваем индивидуальную **Zero-Trust веб-песочницу** под конкретный бизнес-процесс, лимиты и формат данных заказчика:
+
+| Отрасль и задача клиента | Архитектурная связка модулей Apumia | Результат для бизнеса и СБ |
+| :--- | :--- | :--- |
+| **Банки, МФО и Финтех** (контроль ИИ-агентов и кредитного скоринга) | `Finance Extract` → `Apumia DQG` → `APUMIA Guard (Z3)` → `AI Audit Trail` | Блокировка ошибок отчётности и промпт-инъекций за `< 2 мс` + крипто-след для регулятора |
+| **Логистика, Склады и Робототехника** (AMR, БПЛА, VLA-модели) | `CargoWise Guard` → `APUMIA Guard (Rust Edge)` → `SuperUX v53` | Кинематическая защита людей (`p99 = 1.333 µs`), контроль накладных и чёрный ящик |
+| **ИБ, Промышленность и Регуляторика** (пост-квантовая защита и аудит) | `Aegis NIST` → `PQC Migration` → `Apum Cert (ML-DSA-65)` → `Code Quality` | Инвентаризация CBOM 1.6, переход на ГОСТ/NIST PQC и доказуемый комплаенс |
+
+> **Как протестировать под вашу задачу:** пришлите описание процесса или пример структуры данных на `apumiaaifund@gmail.com` — мы соберём персональный интерактивный стенд для вашей команды и СБ за 1 рабочий день.
+
 ## 📬 Контакты
 **Артем Шамурадов** — Founder & Principal Architect (**Apumia AI Fund**) | `apumiaaifund@gmail.com` | [@apumiaaifund](https://github.comapumiaaifund)
