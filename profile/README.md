@@ -1,39 +1,34 @@
-# 🛡️ Apumia AI Fund — Deterministic AI Safety, Compliance & Robotics Infrastructure
+# 🏛️ Apumia AI Fund — Инженерная экосистема доверенного ИИ и отказоустойчивых систем
 
-## 🚀 Продуктовый портфель, Live-песочницы и статус CI
+<p align="center">
+  <img src="./ecosystem_map.svg" alt="Экосистема Apumia AI Fund" width="100%"/>
+</p>
 
-| Продукт | Назначение и ключевые метрики | Ссылки | Статус CI |
+Мы создаём детерминированные программные барьеры, криптографические журналы доказательств и платформы хаос-верификации. Наша модель развития строится по принципу **Land & Expand**: готовые B2B-решения для финтеха, логистики и ИБ решают задачи бизнеса за 1–2 недели и финансируют развитие бортового и космического ядра **«Апумиа Спейс»**.
+
+---
+
+### 🧩 Портфель решений в инженерных образах
+
+| Образ решения | Продукт | Суть технологии и ценность для заказчика | Отрасли применения |
 | :--- | :--- | :--- | :--- |
-| **APUMIA Guard** | Z3 SMT (< 2 мс) + Rust Edge Core (733k/s, p99 = 1.333 µs) с ROS 2 / MAVLink | [Код](https://github.comapumiaaifund/neurosymbolic-guard-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/neurosymbolic-guard-demo/) | [![CI](https://github.comapumiaaifund/neurosymbolic-guard-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/neurosymbolic-guard-demo/actions/workflows/ci.yml) |
-| **AI Audit Trail** | Ed25519 + Merkle Tree крипто-журнал решений LLM | [Код](https://github.comapumiaaifund/ai-audit-trail-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/ai-audit-trail-demo/) | [![CI](https://github.comapumiaaifund/ai-audit-trail-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/ai-audit-trail-demo/actions/workflows/ci.yml) |
-| **Apum Cert (ML-DSA-65)** | Сертификация ИИ по FIPS 204 / EU AI Act | [Код](https://github.comapumiaaifund/apum-ai-certification) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apum-ai-certification/) | [![CI](https://github.comapumiaaifund/apum-ai-certification/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apum-ai-certification/actions/workflows/ci.yml) |
-| **Apumia DQG** | 29 аксиом качества данных (IFRS) до скоринга | [Код](https://github.comapumiaaifund/apumia-dqg-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apumia-dqg-demo/) | [![CI](https://github.comapumiaaifund/apumia-dqg-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apumia-dqg-demo/actions/workflows/ci.yml) |
-| **Aegis NIST** | CycloneDX 1.6 CBOM и комплаенс NIST IR 8547 / HIPAA | [Код](https://github.comapumiaaifund/aegis-nist) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/aegis-nist/) | [![CI](https://github.comapumiaaifund/aegis-nist/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/aegis-nist/actions/workflows/ci.yml) |
-| **PQC Migration** | Аудит и миграция на пост-квантовую криптографию | [Код](https://github.comapumiaaifund/pqc-migration-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/pqc-migration-demo/) | [![CI](https://github.comapumiaaifund/pqc-migration-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/pqc-migration-demo/actions/workflows/ci.yml) |
-| **Apumia Finance Extract** | Open-Source извлечение и валидация финотчётности | [Код](https://github.comapumiaaifund/apumia-finance-extract) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apumia-finance-extract/) | [![CI](https://github.comapumiaaifund/apumia-finance-extract/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apumia-finance-extract/actions/workflows/ci.yml) |
-| **CargoWise Guard** | Контроль таможенных и логистических накладных | [Код](https://github.comapumiaaifund/cargowise-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/cargowise-demo/) | [![CI](https://github.comapumiaaifund/cargowise-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/cargowise-demo/actions/workflows/ci.yml) |
-| **Code Quality Agent** | DevSecOps-аудит: сложность McCabe и Zero-Trust | [Код](https://github.comapumiaaifund/code-quality-agent-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/code-quality-agent-demo/) | [![CI](https://github.comapumiaaifund/code-quality-agent-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/code-quality-agent-demo/actions/workflows/ci.yml) |
-| **Formula Conformance** | Верификация расчётных формул и финмоделей | [Код](https://github.comapumiaaifund/formula-conformance-checker-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/formula-conformance-checker-demo/) | [![CI](https://github.comapumiaaifund/formula-conformance-checker-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/formula-conformance-checker-demo/actions/workflows/ci.yml) |
-| **Smart Router GRE** | Маршрутизация и SLA-мониторинг GRE-туннелей | [Код](https://github.comapumiaaifund/smart-router-gre-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/smart-router-gre-demo/) | [![CI](https://github.comapumiaaifund/smart-router-gre-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/smart-router-gre-demo/actions/workflows/ci.yml) |
-| **SuperUX v53** | Телеметрия автономных интерфейсов (120 FPS) | [Код](https://github.comapumiaaifund/superux-v53-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/superux-v53-demo/) | [![CI](https://github.comapumiaaifund/superux-v53-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/superux-v53-demo/actions/workflows/ci.yml) |
-| **VC Leader** | Скоринг стартапов и венчурных портфелей | [Код](https://github.comapumiaaifund/vc-leader-demo) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/vc-leader-demo/) | [![CI](https://github.comapumiaaifund/vc-leader-demo/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/vc-leader-demo/actions/workflows/ci.yml) |
-| **Apumia Space** | Оркестрация распределённых узлов верификации | [Код](https://github.comapumiaaifund/apumia-space) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apumia-space/) | [![CI](https://github.comapumiaaifund/apumia-space/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apumia-space/actions/workflows/ci.yml) |
-| **Apumia Hub** | Единый протокол достоверности и DevSecOps-гейтов | [Код](https://github.comapumiaaifund/apumia-hub) · [**Live Sandbox ↗**](https://apumiaaifund.github.io/apumia-hub/) | [![CI](https://github.comapumiaaifund/apumia-hub/actions/workflows/ci.yml/badge.svg)](https://github.comapumiaaifund/apumia-hub/actions/workflows/ci.yml) |
+| 🛰️ **Бортовой рефлекс выживания и чёрный ящик** | **[Apumia Space](https://github.com)** | Нативное ядро на **Rust (`#![no_std]`, `heap = 0`)** под `RISC-V` и `ARM Cortex-M`. Блокирует опасные команды ИИ, детектирует отказ 4 датчиков (FDIR) и сжимает каскадные сбои (`Delta Shrinking`). | Космос, БАС (дроны), АСУ ТП (КИИ), High-Load API |
+| 📜 **Цифровой нотариус для ИИ-агентов** | **`AI Audit Trail`** | Неизменяемый криптографический реестр каждого действия ИИ с формированием пакета доказательств (`Evidence Pack`) для внутреннего контроля и регуляторов. | Банки, финтех, страхование, корпоративный ИИ |
+| 🛡️ **Постквантовый щит и рентген стандартов** | **`PQC Migration` & `Aegis NIST US`** | Автоматический аудит кодовой базы на соответствие стандартам NIST, выявление устаревшей криптографии (`MD5`/`RSA`) и план миграции на постквантовые алгоритмы. | ИБ-департаменты, госсектор, телеком |
+| 🔬 **Иммунный фильтр данных и архитектуры** | **`Apumia DQG` & `DevSecOps Kit`** | Санитарный шлюз качества данных и мультистековый конвейер контроля архитектуры (Python, Rust, TypeScript) с нулевой терпимостью к уязвимостям. | Data-платформы, команды разработки (CTO) |
+| 🚚 **Таможенный страж логистических потоков** | **`CargoWise Guard`** | Защита логистических API от промпт-инъекций, SQL-атак и автоматическое маскирование персональных данных (PII) в транспортных накладных. | Логистика, ВЭД, цепочки поставок |
 
+---
 
-## 🎯 Конструктор решений: персональная песочница под задачу клиента за 24 часа
+### 🛡️ Единый стандарт качества (`Apumia DevSecOps Gate`)
+Все проекты организации проходят сквозную автоматическую верификацию:
+* **Архитектура:** `0` циклических зависимостей, контроль цикломатической сложности McCabe.
+* **Безопасность:** статический анализ (`Bandit` / `Clippy` / `tsc --strict`), защита от утечек секретов и затирание ключей в памяти.
+* **Достоверность:** `_synthetic: false` | `preservation: 100.0%` | `verified: true`.
 
-На базе **15 готовых детерминированных модулей** мы проектируем и разворачиваем индивидуальную **Zero-Trust веб-песочницу** под конкретный бизнес-процесс, лимиты и формат данных заказчика:
+---
 
-| Отрасль и задача клиента | Архитектурная связка модулей Apumia | Результат для бизнеса и СБ |
-| :--- | :--- | :--- |
-| **Банки, МФО и Финтех** (контроль ИИ-агентов и кредитного скоринга) | `Finance Extract` → `Apumia DQG` → `APUMIA Guard (Z3)` → `AI Audit Trail` | Блокировка ошибок отчётности и промпт-инъекций за `< 2 мс` + крипто-след для регулятора |
-| **Логистика, Склады и Робототехника** (AMR, БПЛА, VLA-модели) | `CargoWise Guard` → `APUMIA Guard (Rust Edge)` → `SuperUX v53` | Кинематическая защита людей (`p99 = 1.333 µs`), контроль накладных и чёрный ящик |
-| **ИБ, Промышленность и Регуляторика** (пост-квантовая защита и аудит) | `Aegis NIST` → `PQC Migration` → `Apum Cert (ML-DSA-65)` → `Code Quality` | Инвентаризация CBOM 1.6, переход на ГОСТ/NIST PQC и доказуемый комплаенс |
-| **🚀 Космос и Орбитальная логистика** *(доставка груза на комплекс в 100 км от Земли)* | `CargoWise Guard` → `Aegis PQC (ML-KEM)` → `APUMIA Guard (Rust Edge < 1.35 µs)` → `FlightRecorder` | Автономная стыковка без задержки связи с Землёй, гашение скорости до `0.15 м/с` и крипто-чёрный ящик ([Тест в Sandbox ↗](https://github.io)) |
-| **🇦🇪 Dubai DIFC & JAFZA Port Hub** *(автономный порт и расчёты)* | `Apumia DQG` → `Z3 SMT` → `Aegis PQC (ML-KEM)` → `Rust Edge Core` | Блокировка платежа `$145k > $100k`, PQC-шифр и гашение скорости AGV с `2.40` до `0.40 м/с` ([Тест в Sandbox ↗](https://github.io)) |
-
-> **Как протестировать под вашу задачу:** пришлите описание процесса или пример структуры данных на `apumiaaifund@gmail.com` — мы соберём персональный интерактивный стенд для вашей команды и СБ за 1 рабочий день.
-
-## 📬 Контакты
-**Артем Шамурадов** — Founder & Principal Architect (**Apumia AI Fund**) | `apumiaaifund@gmail.com` | [@apumiaaifund](https://github.comapumiaaifund)
+### 📬 Связь, пилоты (PoC) и инвестиционное сотрудничество
+* **Основатель и главный архитектор:** Артём Шамурадов
+* **Официальная почта:** [apumiaaifund@gmail.com](mailto:apumiaaifund@gmail.com)
+* **Флагманская витрина:** [://github.com](https://github.com)
