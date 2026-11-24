@@ -1,34 +1,36 @@
-# 🏛️ Apumia AI Fund — Инженерная экосистема доверенного ИИ и отказоустойчивых систем
-
 <p align="center">
-  <img src="./ecosystem_map.svg" alt="Экосистема Apumia AI Fund" width="100%"/>
+  <img src="assets/logo.png" alt="APUMIA Labs" width="240"/>
 </p>
 
-Мы создаём детерминированные программные барьеры, криптографические журналы доказательств и платформы хаос-верификации. Наша модель развития строится по принципу **Land & Expand**: готовые B2B-решения для финтеха, логистики и ИБ решают задачи бизнеса за 1–2 недели и финансируют развитие бортового и космического ядра **«Апумиа Спейс»**.
+<h1 align="center">APUMIA Labs</h1>
+
+<p align="center">
+  <b>Deterministic Safety, Cryptographic Audit & Verification Infrastructure for Autonomous AI Agents.</b><br/>
+  Zero-dependency, sub-millisecond guardrails and WORM cryptographic proofs. Built for production.
+</p>
+
+<p align="center">
+  <a href="#core-infrastructure--self-hosted-kits">Products</a> ·
+  <a href="#engineering-principles">Engineering Standards</a> ·
+  <a href="https://apumia.space">Live Verification Node</a> ·
+  <a href="mailto:apumiaaifund@gmail.com">Contact</a>
+</p>
 
 ---
 
-### 🧩 Портфель решений в инженерных образах
+### 🛡️ Core Infrastructure & Self-Hosted Kits
 
-| Образ решения | Продукт | Суть технологии и ценность для заказчика | Отрасли применения |
-| :--- | :--- | :--- | :--- |
-| 🛰️ **Бортовой рефлекс выживания и чёрный ящик** | **[Apumia Space](https://github.com)** | Нативное ядро на **Rust (`#![no_std]`, `heap = 0`)** под `RISC-V` и `ARM Cortex-M`. Блокирует опасные команды ИИ, детектирует отказ 4 датчиков (FDIR) и сжимает каскадные сбои (`Delta Shrinking`). | Космос, БАС (дроны), АСУ ТП (КИИ), High-Load API |
-| 📜 **Цифровой нотариус для ИИ-агентов** | **`AI Audit Trail`** | Неизменяемый криптографический реестр каждого действия ИИ с формированием пакета доказательств (`Evidence Pack`) для внутреннего контроля и регуляторов. | Банки, финтех, страхование, корпоративный ИИ |
-| 🛡️ **Постквантовый щит и рентген стандартов** | **`PQC Migration` & `Aegis NIST US`** | Автоматический аудит кодовой базы на соответствие стандартам NIST, выявление устаревшей криптографии (`MD5`/`RSA`) и план миграции на постквантовые алгоритмы. | ИБ-департаменты, госсектор, телеком |
-| 🔬 **Иммунный фильтр данных и архитектуры** | **`Apumia DQG` & `DevSecOps Kit`** | Санитарный шлюз качества данных и мультистековый конвейер контроля архитектуры (Python, Rust, TypeScript) с нулевой терпимостью к уязвимостям. | Data-платформы, команды разработки (CTO) |
-| 🚚 **Таможенный страж логистических потоков** | **`CargoWise Guard`** | Защита логистических API от промпт-инъекций, SQL-атак и автоматическое маскирование персональных данных (PII) в транспортных накладных. | Логистика, ВЭД, цепочки поставок |
+* **[Notary AI](https://github.com)** (`Live at apumia.space`) — Self-sovereign WORM cryptographic proof registry for autonomous AI agents. Zero-dependency SHA-256 notarization on Cloudflare Workers + D1.
+* **[APUMIA Guard](https://github.com)** — Deterministic neurosymbolic safety firewall for AI agents (`< 2 ms`, zero-GPU) and robotics/VLA models (`733,859 checks/sec`, `p99 = 1.333 µs`). Enforces financial limits and safety invariants before execution.
+* **[AEGIS-NIST](https://github.com)** — Automated DevSecOps compliance gate and verification suite aligned with **NIST AI RMF 1.0** and EU AI Act requirements.
+* **[Apumia Space Core](https://github.com)** — Deterministic `#![no_std]` Rust fault-tolerance and FDIR verification kernel for autonomous systems and mission-critical infrastructure.
 
 ---
 
-### 🛡️ Единый стандарт качества (`Apumia DevSecOps Gate`)
-Все проекты организации проходят сквозную автоматическую верификацию:
-* **Архитектура:** `0` циклических зависимостей, контроль цикломатической сложности McCabe.
-* **Безопасность:** статический анализ (`Bandit` / `Clippy` / `tsc --strict`), защита от утечек секретов и затирание ключей в памяти.
-* **Достоверность:** `_synthetic: false` | `preservation: 100.0%` | `verified: true`.
+### ⚙️ Engineering Principles
 
----
+* **Deterministic & Zero-Float:** Exact decimal arithmetic and strict state invariants without probabilistic hallucinations.
+* **Zero-Dependency & Zero-Egress:** Auditable, lightweight runtimes with zero external telemetry or third-party data leaks.
+* **Fail-Closed by Design:** Every action is cryptographically hashed and verified against policy rules prior to execution.
 
-### 📬 Связь, пилоты (PoC) и инвестиционное сотрудничество
-* **Основатель и главный архитектор:** Артём Шамурадов
-* **Официальная почта:** [apumiaaifund@gmail.com](mailto:apumiaaifund@gmail.com)
-* **Флагманская витрина:** [://github.com](https://github.com)
+📬 **Commercial Licenses, Self-Hosted Kits & Custom Pilots:** [apumiaaifund@gmail.com](mailto:apumiaaifund@gmail.com)
