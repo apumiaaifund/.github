@@ -1,36 +1,18 @@
-<p align="center">
-  <img src="assets/logo.png" alt="APUMIA Labs" width="240"/>
-</p>
+# APUMIA AI Fund
 
-<h1 align="center">APUMIA Labs</h1>
+Deterministic Zero-Float Verification & Execution Registry (0-Deps, SHA-256 Proven).
 
-<p align="center">
-  <b>Deterministic Safety, Cryptographic Audit & Verification Infrastructure for Autonomous AI Agents.</b><br/>
-  Zero-dependency, sub-millisecond guardrails and WORM cryptographic proofs. Built for production.
-</p>
-
-<p align="center">
-  <a href="#core-infrastructure--self-hosted-kits">Products</a> ·
-  <a href="#engineering-principles">Engineering Standards</a> ·
-  <a href="https://apumia.space">Live Verification Node</a> ·
-  <a href="mailto:apumiaaifund@gmail.com">Contact</a>
-</p>
+- Live Global Registry: https://apumiaaifund.github.io/
 
 ---
 
-### 🛡️ Core Infrastructure & Self-Hosted Kits
+### Commercial Self-Hosted Kits & SDKs (Instant Delivery via Stripe, Apple Pay & PayPal)
 
-* **[Notary AI](https://github.com)** (`Live at apumia.space`) — Self-sovereign WORM cryptographic proof registry for autonomous AI agents. Zero-dependency SHA-256 notarization on Cloudflare Workers + D1.
-* **[APUMIA Guard](https://github.com)** — Deterministic neurosymbolic safety firewall for AI agents (`< 2 ms`, zero-GPU) and robotics/VLA models (`733,859 checks/sec`, `p99 = 1.333 µs`). Enforces financial limits and safety invariants before execution.
-* **[AEGIS-NIST](https://github.com)** — Automated DevSecOps compliance gate and verification suite aligned with **NIST AI RMF 1.0** and EU AI Act requirements.
-* **[Apumia Space Core](https://github.com)** — Deterministic `#![no_std]` Rust fault-tolerance and FDIR verification kernel for autonomous systems and mission-critical infrastructure.
-
----
-
-### ⚙️ Engineering Principles
-
-* **Deterministic & Zero-Float:** Exact decimal arithmetic and strict state invariants without probabilistic hallucinations.
-* **Zero-Dependency & Zero-Egress:** Auditable, lightweight runtimes with zero external telemetry or third-party data leaks.
-* **Fail-Closed by Design:** Every action is cryptographically hashed and verified against policy rules prior to execution.
-
-📬 **Commercial Licenses, Self-Hosted Kits & Custom Pilots:** [apumiaaifund@gmail.com](mailto:apumiaaifund@gmail.com)
+1. **[Notary AI — Self-Hosted Cryptographic Audit Node ($99)](https://lava.top)** — Zero-PII immutable WORM proof registry on Cloudflare Workers + D1 (`apumia.space`).
+2. **[APUMIA Guard Pro — NeuroSymbolic & Embodied AI Safety SDK ($149)](https://lava.top)** — Deterministic sub-millisecond safety firewall (`< 2 ms`, zero-GPU) for AI agents and robotics/VLA models.
+3. **[AEGIS-NIST — AI Governance, CycloneDX CBOM & EU AI Act Kit ($199)](https://app.lava.top/products/eddd68c6-5ee6-4e68-90cb-5685737d254b)** — Air-gapped compliance evidence generator and GitHub Actions CI/CD gate aligned with NIST AI RMF 1.0 & EU AI Act.
+4. **[US Quant & Treasuries Risk Engine — Zero-Float Financial Suite ($149)](https://app.lava.top/products/cadd8037-b156-4202-aa64-d2a94525a902)** — 28-digit Python Decimal DV01, Modified Duration, and 99% VaR/CVaR engine + 3 standalone terminals.
+5. **[APUMIA Credit & IFRS 13 Rust Audit Core ($249)](https://app.lava.top/products/8ba44686-a1b5-49c0-86b8-8a227f37e7cb)** — Deterministic WACC, Merton-KMV, IFRS 13 Level 3 & native Rust accounting audit core + MCP server.
+6. **[APUMI Eng Global v2.1 — RFQ/BOM Sanitizer & IEC 62271-100 Guard ($199)](https://app.lava.top/products/c16d716c-32fa-4fdc-8f31-9a0bdffe2446)** — Reversible semantic masking for industrial RFQs & 28-digit Decimal IEC 62271-100 physics verifier.
+7. **[PQC Migration & ML-DSA-65 Audit Kit — Quantum Readiness Suite ($199)](https://app.lava.top/products/852d8dc0-97bd-4502-9a72-b5a63b1e44b9)** — Zero-dependency RSA/ECDSA scanner, SARIF/CBOM & Merkle proofs aligned with NIST IR 8547.
+8. **[APUMIA DeFi & RWA Invariant Guard — Pre-Execution Firewall ($199)](https://app.lava.top/products/519c4883-9dc9-4d4d-9f19-7e7f4355a75a)** — Non-custodial calldata & slippage firewall + RWA Proof-of-Reserve verifier (VARA / MAS / DORA ready).
